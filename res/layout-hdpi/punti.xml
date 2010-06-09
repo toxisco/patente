@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/background"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/nome"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="23px"
+android:textStyle="bold"
+android:layout_marginLeft="40px"
+android:layout_marginTop="40px"
+android:textColor="#ff0000" />
+<TextView
+android:id="@+id/nomevar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="25px"
+android:layout_marginLeft="40px"
+android:layout_marginTop="5px"
+android:textStyle="bold"
+android:layout_below="@+id/nome"
+android:textColor="#000" />
+
+
+<TextView
+android:id="@+id/punti"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+android:layout_marginTop="43px"
+android:layout_marginRight="40px"
+android:textStyle="bold"
+android:textSize="23px"
+android:textColor="#ff0000" />
+<TextView
+android:id="@+id/puntivar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/punti"
+android:layout_alignParentRight="true"
+android:layout_marginTop="8px"
+android:layout_marginRight="45px"
+android:textStyle="bold"
+android:textSize="38px"
+android:textColor="#000" />
+
+
+<TextView
+android:id="@+id/nascita"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/puntivar"
+android:layout_marginLeft="45px"
+android:layout_marginTop="30px"
+android:textStyle="bold"
+android:textSize="20px"
+android:textColor="#ff0000" />
+<TextView
+android:id="@+id/nascitavar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/nascita"
+android:layout_marginLeft="45px"
+android:layout_marginTop="8px"
+android:textStyle="bold"
+android:textSize="22px"
+android:textColor="#000" />
+
+
+<TextView
+android:id="@+id/numero"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+android:layout_below="@+id/puntivar"
+android:layout_marginRight="40px"
+android:layout_marginTop="30px"
+android:textStyle="bold"
+android:textSize="20px"
+android:textColor="#ff0000" />
+<TextView
+android:id="@+id/numerovar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/numero"
+android:layout_alignParentRight="true"
+android:layout_marginRight="40px"
+android:layout_marginTop="8px"
+android:textStyle="bold"
+android:textSize="22px"
+android:textColor="#000" />
+
+
+<TextView
+android:id="@+id/scadenza"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/nascitavar"
+android:layout_marginLeft="45px"
+android:textStyle="bold"
+android:layout_marginTop="30px"
+android:textSize="20px"
+android:textColor="#ff0000" />
+<TextView
+android:id="@+id/scadenzavar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/scadenza"
+android:textStyle="bold"
+android:layout_marginLeft="45px"
+android:layout_marginTop="8px"
+android:textSize="22px"
+android:textColor="#000" />
+
+<TextView
+android:id="@+id/variazione"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/scadenzavar"
+android:textStyle="bold"
+android:layout_marginLeft="45px"
+android:layout_marginTop="50px"
+android:textSize="20px"
+android:text="Variazioni Punti"
+android:textColor="#ff0000" />
+<TextView
+android:id="@+id/variazionevar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/variazione"
+android:textStyle="bold"
+android:layout_marginLeft="45px"
+android:layout_marginTop="8px"
+android:textSize="22px"
+android:textColor="#000" />
+
+<TextView
+android:id="@+id/veicoli"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/variazionevar"
+android:textStyle="bold"
+android:layout_marginLeft="45px"
+android:layout_marginTop="40px"
+android:textSize="20px"
+android:text="Veicoli Posseduti"
+android:textColor="#ff0000" />
+<TextView
+android:id="@+id/veicolivar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/veicoli"
+android:textStyle="bold"
+android:layout_marginLeft="45px"
+android:layout_marginTop="8px"
+android:textSize="22px"
+android:textColor="#000" />
+
+<TextView
+android:id="@+id/aggiornamento"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+android:layout_alignParentLeft="true"
+android:layout_marginBottom="30px"
+android:layout_marginLeft="80px"
+android:textSize="15px"
+android:text="@string/ultimo"
+android:textStyle="bold"
+android:textColor="#000" />
+<TextView
+android:id="@+id/data"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="260px"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="30px"
+android:textSize="15px"
+android:textColor="#000" />
+</RelativeLayout>

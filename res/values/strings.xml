@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Patente</string>
+          <string name="version">0.1.1 BETA</string>
+          <string name="text">Created by <b>Lorenzo Braghetto</b>\n
+	e-mail/jabber -> monossido@lorenzobraghetto.com\n
+    blog -> www.lorenzobraghetto.com\n
+    twitter -> http://twitter.com/monossido
+     </string>
+     <string name="ultimo">Ultimo aggiornamento</string>
+</resources>
