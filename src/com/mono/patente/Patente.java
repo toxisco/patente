@@ -307,7 +307,7 @@ public class Patente extends Activity {
 	                GregorianCalendar gc = new GregorianCalendar();
 	                //+1 al mese per questo lolloso "bug" :) http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4757002
 	                int month = gc.get(gc.MONTH)+1;
-	                editor_sommario.putString("Data", gc.get(gc.YEAR)+"-"+month+"-"+gc.get(gc.DATE));
+	                editor_sommario.putString("Data", gc.get(gc.DATE)+"-"+month+"-"+gc.get(gc.YEAR));
 	                editor_sommario.commit();
     		        
     		        TagNode node2 = rootNode.findElementByAttValue("summary", "Elenco movimenti punti patente", true, true);
@@ -325,7 +325,8 @@ public class Patente extends Activity {
     	                editor.putString("Punti+", tdMovimenti[1].getText().toString());
     	                editor.putString("Punti-", tdMovimenti[2].getText().toString());
     	                editor.putString("Descrizione", tdMovimenti[3].getText().toString());
-    	                editor.putString("Ente", tdMovimenti[4].getText().toString());
+    	                editor.putString("DataEvento", tdMovimenti[4].getText().toString());
+    	                editor.putString("Ente", tdMovimenti[5].getText().toString());
     	                editor.commit();
     			        
     	                movimenti = node2.findElementByAttValue("id", "tableBodyMovimentoPunti_"+i, true, false);

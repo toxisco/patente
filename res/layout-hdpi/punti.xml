@@ -181,4 +181,24 @@ android:layout_alignParentBottom="true"
 android:layout_marginBottom="30px"
 android:textSize="15px"
 android:textColor="#000" />
+
+<Button
+android:id="@+id/eventidettagli"
+android:layout_width="130px"
+android:layout_height="55px"
+android:layout_below="@+id/variazione"
+android:layout_marginLeft="270px"
+android:textSize="20px"
+android:textColor="#000"
+android:text="Dettagli"
+  />
+<Button
+android:id="@+id/veicolidettagli"
+android:layout_width="130px"
+android:layout_height="55px"
+android:layout_below="@+id/veicoli"
+android:layout_marginLeft="270px"
+android:textSize="20px"
+android:textColor="#000"
+android:text="Dettagli" />
 </RelativeLayout>

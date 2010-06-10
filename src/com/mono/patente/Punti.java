@@ -25,6 +25,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class Punti extends Activity {
@@ -85,7 +88,27 @@ public class Punti extends Activity {
 		variazionevar.setText(i-1+" Variazioni");
 		veicolivar.setText(z-1+" Veicoli");
 		datatext.setText(" "+data);
-    	
+		
+		Button eventiDettagli = (Button) findViewById(R.id.eventidettagli);
+		Button veicoliDettagli = (Button) findViewById(R.id.veicolidettagli);
+		eventiDettagli.setOnClickListener( new OnClickListener()
+        {
+				@Override
+                public void onClick(View viewParam)
+                {
+                	Intent e = new Intent(getBaseContext(), Eventi.class);
+                	startActivity(e);
+                }
+        });
+		veicoliDettagli.setOnClickListener( new OnClickListener()
+        {
+				@Override
+                public void onClick(View viewParam)
+                {
+                	Intent v = new Intent(getBaseContext(), Veicoli.class);
+                	startActivity(v);
+                }
+        });
     }
     
 	@Override
