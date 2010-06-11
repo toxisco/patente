@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout01"
+	android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:background="@drawable/viewbackground" >
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/Veicolo"
+		android:layout_marginLeft="10px"
+		android:typeface="sans" android:textSize="16sp" android:textStyle="bold" android:textColor="#ff0000"></TextView>
+		
+		<TextView android:id="@+id/Targa" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textStyle="bold"
+			android:text="Targa:" android:textSize="13sp"
+			android:layout_marginLeft="10px"
+			android:layout_below="@+id/Veicolo"
+			android:textColor="#000"></TextView>
+					<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/Targavar" android:textSize="13sp"
+			android:layout_below="@+id/Targa"
+			android:layout_marginLeft="10px"
+			android:textColor="#000"></TextView>
+			
+		<TextView android:id="@+id/Rev" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textStyle="bold"
+			android:textSize="13sp"
+			android:text="Scadenza Revisione:"
+			android:layout_toRightOf="@+id/Targa"
+			android:layout_marginLeft="100px"
+			android:layout_marginTop="25px"
+			android:textColor="#000"></TextView>
+		<TextView android:id="@+id/Revvar" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:layout_toRightOf="@+id/Targa"
+			android:layout_marginLeft="100px"
+			android:layout_marginTop="42px"
+			android:textColor="#000"></TextView>
+			
+		<TextView android:id="@+id/Classe" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textStyle="bold"
+			android:text="Classe:" android:textSize="13sp"
+			android:layout_marginLeft="10px"
+			android:layout_below="@+id/Targavar"
+			android:textColor="#000"></TextView>
+		<TextView 
+			android:id="@+id/Classevar" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:layout_marginLeft="10px"
+			android:layout_below="@+id/Classe"
+			android:textColor="#000"></TextView>
+			
+		<TextView android:id="@+id/Potenza" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textStyle="bold"
+			android:textSize="13sp"
+			android:text="Potenza"
+			android:layout_toRightOf="@+id/Targa"
+			android:layout_marginLeft="100px"
+			android:layout_marginTop="60px"
+			android:textColor="#000"></TextView>
+		<TextView android:id="@+id/Potenzavar" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:layout_toRightOf="@+id/Targa"
+			android:layout_marginLeft="100px"
+			android:layout_marginTop="75px"
+			android:textColor="#000"></TextView>
+			
+					<TextView android:id="@+id/Tipo" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="13sp"
+			android:layout_marginLeft="10px"
+			android:text="Tipo:"
+			android:textStyle="bold"
+			android:layout_below="@+id/Classevar"
+			android:textColor="#000"></TextView>
+					<TextView android:id="@+id/Tipovar" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10px"
+			android:textSize="13sp"
+			android:layout_below="@+id/Tipo"
+			android:textColor="#000"></TextView>
+</RelativeLayout>

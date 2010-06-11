@@ -10,9 +10,9 @@ public class StampaEventiAdapter extends BaseAdapter {
 	private Context context;
 	private List<StampaEventi> listOfEventi;
 	
-	public StampaEventiAdapter(Context context, List<StampaEventi> listPhonebook){
+	public StampaEventiAdapter(Context context, List<StampaEventi> listOfEventi){
 		this.context = context;
-		this.listOfEventi = listPhonebook;
+		this.listOfEventi = listOfEventi;
 	}
 	public int getCount() {
 		return listOfEventi.size();

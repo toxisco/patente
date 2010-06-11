@@ -1,53 +1,62 @@
 package com.mono.patente;
 
 public class StampaEventi {
-	private String desc;
-	private String data;
-	private String punti;
-	private String ente;
-	private String dataevento;
+	private String var1;
+	private String var2;
+	private String var3;
+	private String var4;
+	private String var5;
+	private String var6;
+
 	
 	// Constructor for the Phonebook class
-	public StampaEventi(String desc, String data, String punti, String dataevento, String ente) {
+	public StampaEventi(String var1, String var2, String var3, String var4, String var5, String var6) {
 		super();
-		this.desc = desc;
-		this.data = data;
-		this.punti = punti;
-		this.ente = ente;
-		this.dataevento= dataevento;
+		this.var1 = var1;
+		this.var2 = var2;
+		this.var3 = var3;
+		this.var4 = var4;
+		this.var5 = var5;
+		this.var6 = var6;
 	}
 	
 	// Getter and setter methods for all the fields.
 	// Though you would not be using the setters for this example,
 	// it might be useful later.
 	public String getName() {
-		return desc;
+		return var1;
 	}
-	public void setName(String desc) {
-		this.desc = desc;
+	public void setName(String var1) {
+		this.var1 = var1;
 	}
 	public String getPhone() {
-		return data;
+		return var2;
 	}
-	public void setPhone(String data) {
-		this.data = data;
+	public void setPhone(String var2) {
+		this.var2 = var2;
 	}
 	public String getMail() {
-		return punti;
+		return var3;
 	}
-	public void setMail(String punti) {
-		this.punti = punti;
+	public void setMail(String var3) {
+		this.var3 = var3;
 	}
 	public String getEnte() {
-		return ente;
+		return var4;
 	}
-	public void setEnte(String ente) {
-		this.ente = ente;
+	public void setEnte(String var4) {
+		this.var4 = var4;
 	}
 	public String getDataE() {
-		return dataevento;
+		return var5;
 	}
-	public void setDataE(String dataevento) {
-		this.dataevento = dataevento;
+	public void setDataE(String var5) {
+		this.var5 = var5;
+	}
+	public String getData6() {
+		return var6;
+	}
+	public void setData6(String var6) {
+		this.var5 = var6;
 	}
 }
