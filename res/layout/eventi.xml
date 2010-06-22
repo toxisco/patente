@@ -6,5 +6,5 @@
     android:background="@drawable/backgrounddettagli"
     >
 
-<ListView android:id="@+id/ListView01" android:layout_marginTop="12px" android:layout_marginBottom="12px" android:layout_width="300px" android:layout_height="wrap_content" android:layout_gravity="center"></ListView>
+<ListView android:id="@+id/ListView01" android:layout_marginTop="12dip" android:layout_marginBottom="12dip" android:layout_width="300dip" android:layout_height="wrap_content" android:layout_gravity="center" android:cacheColorHint="#00000000" ></ListView>
 </LinearLayout>

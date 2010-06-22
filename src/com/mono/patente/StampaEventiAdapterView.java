@@ -31,6 +31,7 @@ public class StampaEventiAdapterView extends LinearLayout {
 			
 			TextView Ente = (TextView)v.findViewById(R.id.Entevar);
 			Ente.setText(entry.getEnte());
+			
 			addView(v);
 		}else
 		{

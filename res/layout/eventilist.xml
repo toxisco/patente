@@ -5,11 +5,13 @@
 	android:background="@drawable/viewbackground" >
 	<TextView android:layout_height="wrap_content"
 		android:layout_width="fill_parent" android:id="@+id/Desc"
+		android:layout_marginLeft="5dip"
 		android:text="Name" android:typeface="sans" android:textSize="16sp" android:textStyle="bold" android:textColor="#ff0000"></TextView>
 		
 		<TextView android:id="@+id/Data" android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:textStyle="bold"
 			android:text="Data variazione punteggio:" android:textSize="13sp"
+			android:layout_marginLeft="5dip"
 			android:layout_below="@+id/Desc"
 			android:textColor="#000"></TextView>
 			
@@ -18,32 +20,34 @@
 			android:textSize="13sp"
 			android:text="Punti:"
 			android:layout_toRightOf="@+id/Data"
-			android:layout_marginLeft="50px"
-			android:layout_marginTop="25px"
+			android:layout_marginLeft="35dip"
+			android:layout_marginTop="25dip"
 			android:textColor="#000"></TextView>
 		<TextView android:id="@+id/Puntivar" android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:textSize="13sp"
 			android:layout_toRightOf="@+id/Data"
-			android:layout_marginLeft="50px"
-			android:layout_marginTop="42px"
+			android:layout_marginLeft="35dip"
+			android:layout_marginTop="42dip"
 			android:textColor="#000"></TextView>
 			
 		<TextView android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:id="@+id/Datavar" android:textSize="13sp"
-			android:text="ciao"
+			android:layout_marginLeft="5dip"
 			android:layout_below="@+id/Data"
 			android:textColor="#000"></TextView>
 		<TextView android:id="@+id/Ente" android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:textStyle="bold"
 			android:text="Ente: " android:textSize="13sp"
+			android:layout_marginLeft="5dip"
 			android:layout_below="@+id/Datavar"
 			android:textColor="#000"></TextView>
 		<TextView 
 			android:id="@+id/Entevar" 
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dip"
 			android:textSize="13sp"
 			android:text="ciao"
 			android:layout_below="@+id/Ente"
@@ -54,14 +58,14 @@
 			android:textSize="13sp"
 			android:text="Data Evento:"
 			android:layout_toRightOf="@+id/Data"
-			android:layout_marginLeft="50px"
-			android:layout_marginTop="60px"
+			android:layout_marginLeft="35dip"
+			android:layout_marginTop="60dip"
 			android:textColor="#000"></TextView>
 		<TextView android:id="@+id/DataEventovar" android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:textSize="13sp"
 			android:layout_toRightOf="@+id/Data"
-			android:layout_marginLeft="50px"
-			android:layout_marginTop="80px"
+			android:layout_marginLeft="35dip"
+			android:layout_marginTop="80dip"
 			android:textColor="#000"></TextView>
 </RelativeLayout>

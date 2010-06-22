@@ -9,10 +9,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.AdapterView.OnItemLongClickListener;
 
 public class Veicoli extends Activity {
 	
@@ -44,7 +48,17 @@ public class Veicoli extends Activity {
 	        
 	    	StampaEventiAdapter adapter = new StampaEventiAdapter(this, listOfEventi);
 	        
-	        list.setAdapter(adapter);	        
+	        list.setAdapter(adapter);	  
+	        list.setOnItemLongClickListener(new OnItemLongClickListener() {
+	            
+	        	@Override
+	            public boolean onItemLongClick(AdapterView<?> list, View view, int position, long id) {
+	                Log.i("provaclic", "onListItemClick: " + position);
+	                return true;
+	                }
+
+	            
+	        });
 	 }
 
 		@Override
