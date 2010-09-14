@@ -3,5 +3,8 @@
 <item android:id="@+id/Logout" 
 	android:title="Esci"
 	></item>
+<item android:id="@+id/Refresh" 
+	android:title="Aggiorna"
+	></item>
 
 </menu>

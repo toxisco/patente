@@ -5,6 +5,14 @@
     android:layout_height="fill_parent"
     android:background="@drawable/backgrounddettagli"
     >
-
+	<TextView
+		android:id="@+id/Click"
+		android:text="Tieni premuto per aggiungere la scadenza della revisione nel calendario"
+		android:textSize="15dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		/>
 <ListView android:id="@+id/ListView01" android:layout_marginTop="12dip" android:layout_marginBottom="12dip" android:layout_width="300dip" android:layout_height="wrap_content" android:layout_gravity="center" android:cacheColorHint="#00000000"></ListView>
 </LinearLayout>
