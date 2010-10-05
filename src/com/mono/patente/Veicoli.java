@@ -180,7 +180,7 @@ public class Veicoli extends Activity {
 						if (Integer.parseInt(Build.VERSION.SDK) == 8 )
 							newEvent = cr.insert(Uri.parse("content://com.android.calendar/events"), cv);
 						else
-							newEvent = cr.insert(Uri.parse("content://com.android.calendar/events"), cv);
+							newEvent = cr.insert(Uri.parse("content://calendar/events"), cv);
 
 						if (newEvent != null) {
 							long id = Long.parseLong( newEvent.getLastPathSegment() );
